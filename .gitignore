@@ -1,24 +1,40 @@
-# Compiled class file
-*.class
+# Build output
+/target/
 
-# Log file
+# IDE files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+*.launch
+
+# OS files
+.DS_Store
+
+# Maven wrapper JAR (downloaded automatically)
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs
 *.log
 
-# BlueJ files
-*.ctxt
+# IntelliJ
+out/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Coverage
+jacoco.exec
+/site/
+/coverage/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# VS Code
+.vscode/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Local environment / secrets
+*.env
+.secrets/
+
+# Generated Javadoc
+/target/apidocs/
+
+# Node (if accidentally added examples)
+node_modules/
